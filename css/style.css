@@ -1,0 +1,45 @@
+a:link img, a:visited img, a:hover img, a:active img { border: 0; }
+a:link, a:visited, a:hover, a:active { color: #000080; text-decoration: underline; }
+a:visited { color: #808080; }
+a:hover { color: #800000; }
+
+body { margin: 0; padding: 0; }
+body, table { background: #fff; color: #000; font: normal normal 11px/150% Verdana, Geneva, Arial, Helvetica, sans-serif; text-align: left; }
+
+button { font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif; height: 21px; width: 75px; margin: 3px 0px; padding: 0; }
+input, select { font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif; margin: 3px 0px 6px; padding: 0; width: 250px; display: block;}
+textarea { font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif; margin: 3px 0px 6px; padding: 0; width: 500px; height: 250px; display: block; resize: none; }
+fieldset { border: 1px solid #d4d0c8; margin: 0px; padding: 5px; width: 100%; }
+form { margin: 0; padding: 0; }
+form p { margin: 0; padding: 0; }
+label { font-weight: bold; margin: 5px 0px 0px; }
+
+table { border-collapse: collapse; margin: 0, auto; width: 100%; }
+td, th { border: 1px solid #808080; padding: 3px; text-align: center; }
+th { background: #d4d0c8; height: 24px; }
+
+p { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0.4em 0; }
+h1 { font: 800 2em/100% Arial, Helvetica, sans-serif; }
+h2 { font: 800 1.6em/100% Arial, Helvetica, sans-serif; }
+h3 { font: 800 1.3em/100% Arial, Helvetica, sans-serif; }
+h4, h5, h6 { font: 800 1em/100% Arial, Helvetica, sans-serif; }
+
+#main1, #main2 { clear: both; }
+#up1, #up2 { width: 800px; margin: 0px 0px 0px 50px; }
+#up1 #menu { height: 50px; }
+#up1 #menu ul { padding: 15px 0px 0px 0px; }
+
+#up1 .left { float: left; width: 500px; }
+#up1 .left ul {  margin: 0 0 0 0px; padding: 0; }
+#up1 .left ul li { list-style: square inside url(../img/menulist.gif);  margin: 0; padding: 0; display: inline; }
+#up1 .left ul a:link, #up1 .left ul a:visited, #up1 .left ul a:hover, #up1 .left ul a:active, #up1 .left ul span { margin: 0 0 0 5px; }
+#up1 .left ul a:link, #up1 .left ul a:visited, #up1 .left ul a:hover, #up1 .left ul a:active { color: #000080; text-decoration: none; }
+#up1 .left ul a:hover { color: #800000; }
+#up1 .left ul span { color: #000; }
+
+.sort { font-weight: bold; } 
+
+.right { text-align: right; }
+.center { text-align: center; }
+
